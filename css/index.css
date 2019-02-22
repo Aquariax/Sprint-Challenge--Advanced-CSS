@@ -175,11 +175,11 @@ p {
 }
 .nav-container .nav-bar h1 {
   color: #23293B;
-  font-size: 5rem;
+  font-size: 4rem;
   margin: 1rem;
 }
 .nav-container .nav-bar .links a {
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-decoration: none;
   color: #454A59;
   padding: 2rem;
@@ -242,6 +242,17 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  display: flex;
+  background-color: #22283A;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  width: 10rem;
+  font-size: 2rem;
+  color: white;
 }
 .home .walk .walk-img {
   width: 46%;
