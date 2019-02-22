@@ -67,8 +67,13 @@
       .btn {
         .color-round(@button-color, 5px, center, center);
         .button-size();
-        .button-font()
+        .button-font();
+          &:hover {
+            color: @button-color;
+            background-color: white;
+          }
       }
+     
     }
 
     .walk-img {
