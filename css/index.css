@@ -184,6 +184,12 @@ p {
   color: #454A59;
   padding: 2rem;
 }
+@media ( max-width: 530px ) {
+  .nav-container .nav-bar .links a {
+    justify-content: space-evenly;
+    padding: 1rem;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
