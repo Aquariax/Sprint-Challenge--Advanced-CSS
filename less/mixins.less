@@ -1,1 +1,18 @@
 // Mixins Here
+.color-round(@color, @border-radius, @2, @bi){
+    display: flex;
+    background-color: @color;
+    border-radius: @border-radius;
+    justify-content: @2;
+    align-items: @bi;
+}
+.button-size(){
+    height: 5rem;
+    width: 10rem;
+}
+.button-font(){
+    font-size:2rem;
+    color: white;
+}
+
+@mobile: ~"( max-width: 530px )";
